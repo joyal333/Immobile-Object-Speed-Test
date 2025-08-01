@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Immobile Object Speed Test</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Immobile Object Speed Test</h1>
+    <p class="subtitle">Upload a photo of any not-moving object. Discover its secret speed!</p>
+
+    <div class="card">
+      <div id="questionStep">
+        <p class="mystery">To begin, answer this: What is the secret password?</p>
+        <input type="text" id="secretInput" placeholder="Type the magic word..." />
+        <button id="secretBtn" class="start-btn">Submit</button>
+        <p id="secretHint" class="hint"></p>
+      </div>
+      <div id="triviaStep" style="display:none;">
+        <p class="mystery">Object Trivia: What is the slowest animal in the world?</p>
+        <input type="text" id="triviaInput" placeholder="Your answer..." />
+        <button id="triviaBtn" class="start-btn">Submit</button>
+        <p id="triviaHint" class="hint"></p>
+      </div>
+      <input type="file" id="imageInput" accept="image/*" />
+      <img id="preview" class="preview" src="" alt="Object Preview" hidden />
+
+      <div id="progressBarContainer" class="progress-container" hidden>
+        <div id="progressBar" class="progress-bar"></div>
+        <p class="analyzing">Analyzing object speed...</p>
+      </div>
+
+      <div id="result" class="result" hidden>
+        <div class="speed drumroll"><span id="speedVal">0</span> km/h</div>
+        <div id="funStats" style="margin:1rem 0 0.5rem 0; color:#f1c40f; font-size:1.1rem;"></div>
+        <p id="caption" class="caption"></p>
+      </div>
+    </div>
+    <button id="startBtn" class="start-btn" style="display:none;">Start Object Speed Test</button>
+    <div id="loader" class="loader"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
