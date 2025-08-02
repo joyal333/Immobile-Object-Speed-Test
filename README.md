@@ -3,6 +3,8 @@
 
 Immobile-Object-Speed-Test
 
+**Website link**
+https://immobile-object-speed-test-a6zd.vercel.app/
 
 ## Basic Details
 ### Team Name: but why?
@@ -132,13 +134,10 @@ Subtle animations (possibly using Framer Motion) add fake “scientific” flair
 
 The interface treats the whole experience with undeserved seriousness — which is exactly the joke.
 
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+Joyal S :programmer
+Albin Saji:programmer
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
